@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+
+img{
+    max-height: 100%;
+    width: 100%;
+}
+
+img[class*="gerry"]{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+}
+
+body img:nth-child(2){
+    bottom: 0;
+    right: 0;
+}
+
+body img:nth-child(3){
+    bottom: 0;
+    left: 0;
+}
+
